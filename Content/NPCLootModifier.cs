@@ -16,7 +16,7 @@ namespace GoAwayDeerClops.Content
 				var effigy = ModContent.ItemType<Effigy>();
 
 				var rule = ItemDropRule.ByCondition(new FirstDeerclopsKillCondition(), effigy);
-				rule.OnFailedConditions(ItemDropRule.Common(effigy, 999999));
+				rule.OnFailedConditions(ItemDropRule.Common(effigy, 4));
 
 				npcLoot.Add(rule);
 			}

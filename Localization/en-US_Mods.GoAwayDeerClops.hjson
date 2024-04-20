@@ -24,3 +24,4 @@ Configs: {
 }
 
 DropConditions.FirstKill: On first kill
+Tiles.Effigy.MapEntry: Deer Effigy

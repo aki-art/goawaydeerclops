@@ -5,7 +5,6 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.Enums;
 using Terraria.ID;
-using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
@@ -49,7 +48,7 @@ namespace GoAwayDeerClops.Content.Tiles
 
 			DustType = DustID.Bone;
 
-			AddMapEntry(new Color(144, 148, 144), Language.GetText("MapObject.Statue"));
+			AddMapEntry(new Color(114, 94, 74), CreateMapEntryName());
 		}
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
