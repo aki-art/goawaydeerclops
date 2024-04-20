@@ -1,0 +1,26 @@
+Items: {
+	Effigy: {
+		DisplayName: Deer Effigy
+		Tooltip: Prevents Deerclops from naturally spawning during a Blizzard at midnight.
+	}
+}
+
+Buffs: {
+	PreventDeerclopsBuff: {
+		DisplayName: Deer Effigy
+		Description: Prevents Deerclops from spawning naturally. Deer Thing will work as usual.
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: General
+
+		range: {
+			Label: Effigy Tile Range
+			Tooltip: Players within this distance to a Deer Effigy will not trigger a Deerclops fight.
+		}
+	}
+}
+
+DropConditions.FirstKill: On first kill

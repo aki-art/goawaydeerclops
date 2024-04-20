@@ -1,0 +1,3 @@
+displayName = Bad Deerclops! - Anti-spawn effigy
+author = Aki
+version = 0.1

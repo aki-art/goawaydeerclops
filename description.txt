@@ -1,0 +1,1 @@
+This mod adds a new placeable item called a Deer Effigy. Deer Effigy prevents Deerclops from naturally spawning in a 200 tiles radius, obtain it by killing Deerclops at least once.
